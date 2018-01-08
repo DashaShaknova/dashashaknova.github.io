@@ -1,0 +1,502 @@
+body {
+ background-image: url('../img/12.jpg');
+ background-attachment: fixed;
+ background-repeat: repeat;
+ width: 99%;
+
+
+}
+
+.wrapper {
+ position: absolute;
+ width: 90%;
+ display: block;
+ left: 2.5%;
+ right: 2.5%;
+
+}
+
+.wrapper>header {
+ position: relative;
+ width: 100%;
+ left: 2.5%;
+ right: 2.5%;
+
+}
+
+.ul-nav {
+ position: relative;
+ vertical-align: bottom;
+ opacity: 1;
+ -ms-flex-pack: distribute;
+ justify-content: space-around;
+ width: 100%;
+ height: 10vh;
+ top: 0;
+ background-color: #E6E6E6;
+ line-height: inherit;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+ -ms-flex-direction: row;
+ flex-direction: row;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ text-transform: uppercase;
+ z-index: 1;
+
+}
+
+.ul-nav>li {
+
+ font-weight: bold;
+ font-size: 1.5vw;
+
+ padding: 0;
+ line-height: 10vh;
+ text-align: center;
+
+}
+
+.logo {
+ height: 10vh;
+}
+
+.wrapper>main {
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+ -ms-flex-direction: column;
+ flex-direction: column;
+ background: url('../img/stucco_texture2042.jpg');
+ background-repeat: repeat;
+ background-size: 100%;
+ width: 100%;
+ position: relative;
+ left: 2.5%;
+ right: 2.5%;
+
+
+}
+
+.inf {
+ position: relative;
+ width: 100%;
+}
+
+.inf>h2 {
+ text-align: center;
+ font-size: 2.5vw;
+ padding: 1%;
+}
+
+.jumping-inf>img,
+.pilates-inf>img,
+.tabata-inf>img,
+.training-inf>img {
+ width: 30%;
+ margin-left: 5%;
+ float: left;
+}
+
+.jumping-inf>p,
+.pilates-inf>p,
+.tabata-inf>p,
+.training-inf>p {
+ text-align: right;
+ font-size: 2vw;
+}
+
+.kangoo-inf>img,
+.stretching-inf>img,
+.east-inf>img {
+ float: right;
+ width: 30%;
+}
+
+.kangoo-inf>p,
+.stretching-inf>p,
+.east-inf>p {
+ font-size: 2vw;
+
+}
+
+.wrapper>.footer {
+ width: 100%;
+
+ position: relative;
+ left: 2.5%;
+ right: 2.5%;
+}
+
+.container-footer {
+ width: 100%;
+ position: absolute;
+ background: rgba(230, 230, 230, 1);
+}
+
+.container-footer>div {
+ float: left;
+ position: relative;
+ margin: 0% 6% 0% 6%;
+}
+
+.container-footer>div:nth-of-type(1) {
+ margin: 0% 0% 0% 5%;
+}
+
+.container-footer>div:nth-of-type(2) {
+ margin: 1% 0% 0% 25%;
+}
+
+.container-footer>div:nth-of-type(3) {
+ margin: 1% 0% 0% 10%;
+ right: 0;
+ text-align: right;
+ line-height: 0.5;
+}
+
+.footer-logo {
+ position: relative;
+ height: 20vh;
+}
+
+.footer-contacts {
+ position: relative;
+ float: right;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-orient: horizontal;
+ -webkit-box-direction: normal;
+ -ms-flex-direction: row;
+ flex-direction: row;
+ list-style: none;
+ margin: 1px;
+ padding: 1%;
+}
+
+.footer-contacts>li>h2 {
+ line-height: 0.5;
+ position: relative;
+ left: 10vw;
+}
+
+.container-footer>div:nth-of-type(3) {
+ position: relative;
+ float: right;
+}
+
+.container-footer>div>h2 {
+ font-size: 1.5vw;
+}
+
+.footer-contacts>li {
+ text-decoration: none;
+}
+
+.footer-contacts>li>a {
+ text-decoration: none;
+}
+
+.footer-phone {
+ position: relative;
+ font-size: 1.5vw;
+}
+
+.vk {
+ font-family: untitled-font-3;
+ content: 'c';
+ font-size: 2vw;
+ color: navy;
+}
+
+.vk::before {
+ content: 'c';
+}
+
+.vk:hover,
+.ins:hover {
+ font-size: 2.2vw;
+
+}
+
+.ins {
+ font-family: untitled-font-3;
+ content: 'd';
+ font-size: 2vw;
+ color: purple;
+}
+
+.ins::before {
+ content: 'd';
+}
+
+@media screen and (max-width: 480px) {
+ .header {
+  background-color: grey;
+  position: relative;
+  display: block;
+  width: 100%;
+  left: 2.5%;
+  right: 2.5%;
+ }
+ .ul-nav {
+  position: relative;
+  vertical-align: bottom;
+  opacity: 1;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #E6E6E6;
+  line-height: inherit;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style: none;
+  margin: 0%;
+  padding: 0;
+  text-transform: uppercase;
+  z-index: 1;
+
+ }
+ .ul-nav>li {
+
+  font-weight: bold;
+  font-size: 3vw;
+  padding: 0;
+  line-height: 10vh;
+  text-align: center;
+
+ }
+ .ul-nav>li:not(:nth-of-type(1)) {
+  border: solid 2px darkgrey;
+ }
+ main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: none;
+  background-color: lightgrey;
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+
+
+ }
+ .inf>h2 {
+  position: relative;
+  text-align: center;
+  font-size: 3vw;
+  padding: 1%;
+ }
+ .jumping-inf>img,
+ .pilates-inf>img,
+ .tabata-inf>img,
+ .training-inf>img,
+ .kangoo-inf>img,
+ .stretching-inf>img,
+ .east-inf>img {
+  width: 40%;
+  position: relative;
+  left: 25%;
+
+ }
+ .jumping-inf>p,
+ .pilates-inf>p,
+ .tabata-inf>p,
+ .training-inf>p,
+ .kangoo-inf>p,
+ .stretching-inf>p,
+ .east-inf>p {
+  position: relative;
+  text-align: center;
+  clear: both;
+  font-size: 3.5vw;
+  line-height: 1.5;
+ }
+ .kangoo-inf>img,
+ .stretching-inf>img,
+ .east-inf>img {
+  width: 40%;
+  position: relative;
+  left: -30%;
+ }
+ .footer {
+  width: 100%;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+  top: 130vh;
+
+ }
+ .container-footer {
+  width: 100%;
+  position: absolute;
+  background: rgba(230, 230, 230, 1);
+ }
+
+ .container-footer>div {
+  display: inline-block;
+  line-height: normal;
+ }
+
+ .footer-logo {
+  position: relative;
+  height: 10vh;
+
+
+
+
+ }
+ .container-footer>div:nth-of-type(3) {
+  display: none;
+
+
+ }
+
+ .container-footer>div>h2 {
+  font-size: 2.5vw;
+ }
+
+ .footer-contacts>li {
+  text-decoration: none;
+ }
+
+ .footer-contacts>li>a {
+  text-decoration: none;
+ }
+
+ .footer-phone {
+  position: relative;
+  font-size: 3vw;
+ }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+ .wrapper>main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: url('../img/stucco_texture2042.jpg');
+  background-repeat: repeat;
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+
+
+ }
+ .ul-nav>li {
+  font-size: 2vw;
+ }
+ .jumping-inf>img,
+ .pilates-inf>img,
+ .tabata-inf>img,
+ .training-inf>img,
+ .kangoo-inf>img,
+ .stretching-inf>img,
+ .east-inf>img {
+  width: 40%;
+  position: relative;
+  left: 25%;
+
+ }
+ .jumping-inf>p,
+ .pilates-inf>p,
+ .tabata-inf>p,
+ .training-inf>p,
+ .kangoo-inf>p,
+ .stretching-inf>p,
+ .east-inf>p {
+  position: relative;
+  text-align: center;
+  clear: both;
+  font-size: 3.5vw;
+  line-height: 1.5;
+ }
+ .kangoo-inf>img,
+ .stretching-inf>img,
+ .east-inf>img {
+  width: 40%;
+  position: relative;
+  left: -30%;
+ }
+ .inf>h2 {
+  position: relative;
+  text-align: center;
+  font-size: 3.5vw;
+  padding: 1%;
+ }
+ .footer {
+  width: 100%;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+
+
+ }
+ .container-footer {
+  width: 100%;
+  position: absolute;
+  background: rgba(230, 230, 230, 1);
+ }
+
+ .container-footer>div {
+  display: inline-block;
+  line-height: normal;
+  float: left;
+ }
+
+ .footer-logo {
+  position: relative;
+  height: 20vh;
+ }
+ .container-footer>div:nth-of-type(3) {
+  display: none;
+
+
+ }
+
+ .container-footer>div>h2 {
+  font-size: 2.5vw;
+ }
+
+ .footer-contacts>li {
+  text-decoration: none;
+ }
+
+ .footer-contacts>li>a {
+  text-decoration: none;
+ }
+
+ .footer-phone {
+  position: relative;
+  font-size: 3vw;
+ }
+}
